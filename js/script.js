@@ -67,13 +67,6 @@ document.addEventListener("DOMContentLoaded", function () {
         detallesDuration.textContent = movie.runtime + " minutos";
         detallesBudget.textContent = "$" + movie.budget.toLocaleString();
         detallesRevenue.textContent = "$" + movie.revenue.toLocaleString();
-        const btnMas = document.getElementById("btnMas");
-        const masInfo = document.getElementById("masInfo");
-        btnMas.addEventListener("click", () => {
-            if (masInfo.classList.contains("show")) {
-                btnMore.textContent = "Más";
-            }
-        });
         const offcanvas = new bootstrap.Offcanvas(document.getElementById("detallesContainer"));
         offcanvas.show();
     }
