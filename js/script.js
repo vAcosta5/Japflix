@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     return (
                         movie.title.toLowerCase().includes(aBuscar) ||
                         movie.genres.some((genre) => genre.name.toLowerCase().includes(aBuscar)) ||
-                        movie.tagline.toLowerCase().includes(aBuscar) ||
-                        movie.overview.toLowerCase().includes(aBuscar)
+                        movie.tagline.toLowerCase().includes(aBuscar)
                     );
                 });
                 mostrarPeliculas(peliculasFiltradas);
