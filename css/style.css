@@ -10,19 +10,41 @@
     background-color: beige;
 }
 
-.card-content{
+.card-content {
     height: 150px;
     overflow: auto;
 }
 
 main {
     min-height: calc(100vh - 100px);
-  }
+}
 
-.checked{
+.checked {
     color: orange;
 }
 
-.offcanvas-top{
+.offcanvas-top {
     height: fit-content;
+}
+
+.list-group-item {
+    background: none;
+    border: none;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.star-icon {
+    color: #ffbf00;
+    font-size: 20px;
+}
+
+.empty-stars {
+    color: white;
+}
+
+#pelis{
+    padding: 1%;
+    margin-bottom: 1px;
+    border: 1px solid black;
 }
